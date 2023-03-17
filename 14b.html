@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .sidebar{
+            background-color: green;
+            position: fixed;
+            right: 0;
+            width: 300px;
+            bottom: 0;
+            top: 0;
+        }
+        .name{
+            background-color: lightcoral;
+            height: 1000px;
+        }
+        .popup{
+            background-color: rgba(0, 0, 0, 0.8);
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+
+        }
+        .pop{
+            background-color: white;
+            width: 300px;
+            height: 120px;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            bottom: 50%;
+            right: 50%;
+            border-radius: 10px;
+        }
+        .title{
+            font-weight: bold;
+            margin-left: 20px;
+        }
+        .sub{
+            margin-left: 20px;
+        }
+        .close{
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body style="height: 3000px;">
+    <div class="sidebar">
+        Right sidebar
+    </div>
+    <div class="name">
+        Abhishek Chandra
+    </div>
+    <div class="popup">
+        <div class="pop">
+            <p class="title">Model Title</p>
+            <p class="sub">This is a modal</p>
+            <button class="close">Close</button>
+        </div>
+    </div>
+</body>
+</html>
